@@ -1,0 +1,265 @@
+.mobile_header
+    display: none
+
+header
+    background-color: $bg_title_color
+    height: 80px
+    padding: 33px 0 32px 0
+    position: fixed
+    width: 100%
+    z-index: 1
+
+    .logo
+        margin-top: -9px
+        img
+            display: block
+        a
+            display: flex
+            justify-content: center
+            text-decoration: none
+            .logo_name
+                margin-top: 2px
+                color: $green_color
+                font-size: 20px
+                font-weight: 700
+                margin-left: 8px
+
+    .tablet_divider
+        display: none
+
+    .navbar
+        margin-top: -8px
+        display: flex
+        justify-content: space-between
+        .nav
+            display: flex
+            justify-content: space-around
+            a
+                text-decoration-color: $dark_color
+            &_item
+                display: block
+                list-style-type: none
+                color: $dark_color
+                font-size: 20px
+                font-weight: 500
+                margin-right: 50px
+
+.replic
+    background: #F4F6F5
+    display: flex
+    min-height: 920px
+    margin-bottom: -160px
+    justify-content: center
+    align-items: center
+    .about
+        margin-left: 70px
+        .main_title
+            margin-top: 145px
+            color: $dark_color
+            font-size: 60px
+            font-weight: 500
+            line-height: 110%
+            .green
+                color: $green_color
+                font-size: 60px
+                font-weight: 500
+                line-height: 110%
+        .grey_text
+            margin-top: 20px
+            color: $grey_color
+            font-size: 18px
+            font-weight: 500
+            line-height: 150%
+        .about_btn
+            margin-top: 60px
+            background-color: #f4f6f5
+            height: 65px
+            padding: 20px 60px
+            border: 1px solid $green_color
+            color: $green_color
+            font-size: 20px
+            font-weight: 500
+            line-height: 5px
+            &:hover
+                background-color: $green_color
+                border: $bg_color
+                color: $bg_color
+
+.reproductions
+    background: $bg_color
+    min-height: 1720px
+    padding: 60px 0 90px 0
+    &_header
+        display: flex
+        justify-content: space-between
+        .title
+            color: $dark_color
+            font-size: 40px
+            font-weight: 500
+            line-height: 43px
+        .buttons
+            display: flex
+            justify-content: space-around
+            .reproductions_btn
+                font-size: 20px
+                margin-left: 27px
+                width: 126px
+                height: 43px
+                padding: 0 20px 0 20px
+                border-radius: 20px
+                background: $bg_title_color
+                border: none
+                &:hover
+                    background-color: #376B44
+                    color: $bg_color
+    .boxes
+        display: flex
+        justify-content: space-around
+        .box
+            background-color: $bg_title_color
+            margin-top: 30px
+            &_img
+                height: 422px
+                margin: 20px 20px 0 20px
+            &_author
+                margin: 20px 0 0 20px
+                color: $grey_color
+                font-size: 18px
+                font-weight: 500
+            &_title
+                margin: 10px 0 0 20px
+                color: $dark_color
+                font-size: 30px
+                font-weight: 500
+            &_matherials
+                margin: 8px 0 0 20px
+                color: $dark_color
+                font-size: 18px
+                font-weight: 500
+                br
+                    display: none
+            &_price
+                margin: 30px 0 0 20px
+                color: $green_color
+                font-size: 24px
+                font-weight: 500
+            &_btn
+                margin: 20px 0 30px 20px
+                background-color: $bg_title_color
+                width: 310px
+                height: 65px
+                color: $green_color
+                font-size: 20px
+                font-weight: 500
+                &:hover
+                    background-color: $green_color
+                    color: #ffffff
+
+.promo
+    background: url(../img/section_3/picture_bg.png) center center / cover no-repeat
+    min-height: 574px
+    padding: 70px 0 70px 0
+    &_title_box
+        display: flex
+        justify-content: center
+        width: 521px
+        .promo_title
+            margin-left: 20px
+            color: $bg_color
+            font-size: 40px
+            font-weight: 500
+            line-height: 100%
+            br
+                display: none
+    &_text
+        margin-top: 20px
+        color: #FFF
+        font-size: 18px
+        font-weight: 500
+        line-height: 150%
+    &_btn
+        background-color: #EEDB6D
+        width: 257px
+        height: 65px
+        color: $dark_color
+        font-size: 20px
+        font-weight: 500
+    &_btn
+        margin-top: 60px
+
+.team
+    background-color: $bg_color
+    min-height: 560px
+    padding: 50px 0 70px 0
+    &_about
+        margin-left: 95px
+        &_title
+            margin-top: 124px
+            color: $dark_color
+            font-size: 40px
+            font-weight: 500
+            line-height: 110%
+        &_text
+            margin-top: 20px
+            color: $dark_color
+            font-size: 18px
+            font-weight: 500
+            line-height: 150%
+        &_images
+            margin-top: 20px
+            width: 300px
+            display: flex
+            justify-content: space-around
+
+footer
+    min-height: 168px
+    background-color: $bg_title_color
+    padding: 23px 0 23px 0
+    .footer_col_1
+        .brand
+            a
+                display: flex
+                justify-content: left
+                text-decoration: none
+                .brand_name
+                    margin-top: 5px
+                    margin-left: 8px
+                    color: $green_color
+                    font-size: 20px
+                    font-weight: 700
+        .phone
+            margin-top: 25px
+            color: $dark_color
+            font-size: 20px
+            font-weight: 500
+        .workshop
+            color: $grey_color
+            font-size: 18px
+            font-weight: 500
+    .ul_title
+        a
+            text-decoration-color: $grey_color
+        .footer_title
+            list-style-type: none
+            color: $dark_color
+            font-size: 20px
+            font-weight: 500
+        .ul_item
+            list-style-type: none
+            color: $grey_color
+            font-size: 18px
+            font-weight: 500
+    .footer_divider
+        display: none
+    .links
+        width: 125px
+        display: flex
+        justify-content: space-between
+    .rights
+        .all_rights
+            display: block
+            margin-top: 15px
+            color: $grey_color
+            font-size: 12px
+            font-weight: 500
+            line-height: 120%
